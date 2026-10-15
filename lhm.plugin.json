@@ -1,0 +1,8 @@
+{
+  "identifier": "toplocalai-scholarmuse",
+  "name": "ScholarMuse",
+  "version": "1.0.0",
+  "description": "Academic research tools for AI agents: search papers, verify references and retrieve research datasets through OAuth MCP.",
+  "homepage": "https://scholarmuse.ai",
+  "cloudEndpoint": "https://scholarmuse.ai/mcp"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scholarmuse": {
+      "type": "http",
+      "url": "https://scholarmuse.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "scholarmuse",
+  "version": "1.0.0",
+  "description": "Search academic papers, verify references and access research data from your AI agent.",
+  "author": {
+    "name": "ScholarMuse",
+    "email": "davie@daviechen.com",
+    "url": "https://scholarmuse.ai"
+  },
+  "homepage": "https://scholarmuse.ai",
+  "repository": "https://github.com/TopLocalAI/scholarmuse-mcp",
+  "keywords": [
+    "mcp",
+    "research",
+    "academic",
+    "citations",
+    "science"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "scholarmuse",
+  "version": "1.0.0",
+  "description": "Academic papers, reference checks and research data for your agent.",
+  "author": {
+    "name": "ScholarMuse",
+    "email": "davie@daviechen.com"
+  },
+  "homepage": "https://scholarmuse.ai",
+  "repository": "https://github.com/TopLocalAI/scholarmuse-mcp",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "research",
+    "science",
+    "papers",
+    "mcp"
+  ]
+}

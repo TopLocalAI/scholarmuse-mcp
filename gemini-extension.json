@@ -1,0 +1,10 @@
+{
+  "name": "scholarmuse",
+  "version": "1.0.0",
+  "description": "Academic papers, reference verification and research data through ScholarMuse MCP.",
+  "mcpServers": {
+    "scholarmuse": {
+      "httpUrl": "https://scholarmuse.ai/mcp"
+    }
+  }
+}

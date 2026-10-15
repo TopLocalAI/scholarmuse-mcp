@@ -1,0 +1,21 @@
+name: Publish MCP Registry metadata
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install official publisher
+        run: |
+          curl -fsSL https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1/mcp-publisher_linux_amd64.tar.gz -o publisher.tar.gz
+          tar -xzf publisher.tar.gz mcp-publisher
+      - name: Authenticate using repository OIDC identity
+        run: ./mcp-publisher login github-oidc
+      - name: Publish remote server metadata
+        run: ./mcp-publisher publish

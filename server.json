@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TopLocalAI/scholarmuse",
+  "title": "ScholarMuse",
+  "description": "Academic papers, reference verification and research data for AI agents.",
+  "version": "1.0.0",
+  "websiteUrl": "https://scholarmuse.ai",
+  "repository": {
+    "url": "https://github.com/TopLocalAI/scholarmuse-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scholarmuse.ai/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://scholarmuse.ai/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ]
+}
